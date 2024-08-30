@@ -36,7 +36,7 @@ def classroom(request,classroom_id):
     # print('-> selected_image',selected_image)
     images = Student.objects.filter(
                                     room = selected_image.room,
-    ).order_by('date')
+    ).order_by('time')
     # print('-> images',images)
     context = {'images': images, 'selected_image': selected_image}
     return render(request, 'app_classroom/classroom.html', context)
