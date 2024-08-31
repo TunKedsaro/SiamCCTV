@@ -81,7 +81,7 @@ DATABASES = {
         "NAME": 'siam',
         "USER":'admin',
         "PASSWORD":'1234567890',
-        "HOST":'siam.cr8wqequ6ieo.ap-southeast-2.rds.amazonaws.com',
+        "HOST":'siam.?????????.ap-southeast-2.rds.amazonaws.com',
         "PORT":3306
     }
 }
