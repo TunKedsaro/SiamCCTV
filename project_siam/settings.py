@@ -78,10 +78,10 @@ WSGI_APPLICATION = "project_siam.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": 'siam',
-        "USER":'admin',
-        "PASSWORD":'1234567890',
-        "HOST":'siam.cr8wqequ6ieo.ap-southeast-2.rds.amazonaws.com',
+        "NAME": '',
+        "USER":'',
+        "PASSWORD":'',
+        "HOST":'',
         "PORT":3306
     }
 }
